@@ -67,7 +67,7 @@
   <div class="title">데이세븐 브랜드팀 · 팀장</div>
   <div class="info-block">
     <div class="info-row"><span class="icon">📞</span><span>010 7344 5032</span></div>
-    <div class="info-row"><span class="icon">✉️</span><span>managax@naver.com</span><button onclick="navigator.clipboard.writeText('managax@naver.com').then(()=>{this.textContent='완료';this.style.background='#E87C1E';this.style.borderColor='#E87C1E';this.style.color='white';setTimeout(()=>{this.textContent='복사';this.style.background='transparent';this.style.borderColor='#ccc';this.style.color='#888';},1500)})" style="margin-left:8px;padding:2px 8px;font-size:11px;font-family:'Noto Sans KR',sans-serif;border:1px solid #ccc;border-radius:4px;background:transparent;color:#888;cursor:pointer;flex-shrink:0;">복사</button></div>
+    <div class="info-row"><span class="icon">✉️</span><span>managax@naver.com</span><button onclick="var btn=this;function done(){btn.textContent='완료';btn.style.background='#E87C1E';btn.style.borderColor='#E87C1E';btn.style.color='white';setTimeout(function(){btn.textContent='복사';btn.style.background='transparent';btn.style.borderColor='#ccc';btn.style.color='#888';},1500);}if(navigator.clipboard){navigator.clipboard.writeText('managax@naver.com').then(done);}else{var t=document.createElement('textarea');t.value='managax@naver.com';document.body.appendChild(t);t.select();document.execCommand('copy');document.body.removeChild(t);done();}" style="margin-left:8px;padding:2px 8px;font-size:11px;font-family:'Noto Sans KR',sans-serif;border:1px solid #ccc;border-radius:4px;background:transparent;color:#888;cursor:pointer;flex-shrink:0;">복사</button></div>
   </div>
   <div class="buttons">
     <a class="btn btn-store" href="https://smartstore.naver.com/daysevenmarket" target="_blank">
